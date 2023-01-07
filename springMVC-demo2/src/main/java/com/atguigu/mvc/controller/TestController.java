@@ -13,6 +13,7 @@ public class TestController {
 
     @RequestMapping("/")
     public String index() {
+        System.out.println("修改了");
         return "index";
     }
 }
